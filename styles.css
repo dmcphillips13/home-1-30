@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    height: 10rem;
+    border-radius: 30px;
+    background-color: tomato;
+    color: white;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+}
+
+.product-name {
+    text-transform: uppercase;
+}
